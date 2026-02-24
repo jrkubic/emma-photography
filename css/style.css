@@ -2560,3 +2560,29 @@ display:none;
 .review-carousel-inner {
     min-height: 250px;
 }
+
+/* Contact Form Enhancements
+---------------------------------*/
+.form select.input-text {
+    height: 45px;
+    color: #999;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6'%3E%3Cpath d='M0 0l6 6 6-6z' fill='%23999'/%3E%3C/svg%3E") no-repeat right 15px center;
+    padding-right: 35px;
+    cursor: pointer;
+}
+
+.form select.input-text option {
+    color: #333;
+}
+
+.form input[type="date"].input-text {
+    color: #999;
+    height: 45px;
+}
+
+.form input[type="date"].input-text:valid {
+    color: #333;
+}
